@@ -1,5 +1,6 @@
 ---
 baseURL: "https://gershbean.com/"
+buildDrafts: true
 languageCode: "en-us"
 publishDir: "docs"
 theme: "ananke"
