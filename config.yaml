@@ -1,0 +1,9 @@
+---
+baseURL: "https://gershbean.com/"
+buildDrafts: true
+enableGitInfo: true
+enableRobotsTXT: true
+languageCode: "en-us"
+publishDir: "docs"
+theme: "ananke"
+title: "gershbean"

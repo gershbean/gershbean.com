@@ -1,0 +1,9 @@
+apiVersion: vendir.k14s.io/v1alpha1
+directories:
+- contents:
+  - git:
+      commitTitle: Fix + character being written as &#43; (#317)...
+      sha: 5e250268bd1bf333672bd111c070cef88f963247
+    path: .
+  path: themes/ananke
+kind: LockConfig
