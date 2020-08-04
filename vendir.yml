@@ -9,5 +9,5 @@ directories:
         git:
           url: https://github.com/theNewDynamic/gohugo-theme-ananke
           ref: 5e250268bd1bf333672bd111c070cef88f963247
-        includePaths:
-          - LICENSE.md
+        excludePaths:
+          - .git/**/*
