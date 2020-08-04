@@ -1,1 +1,13 @@
 ---
+apiVersion: vendir.k14s.io/v1alpha1
+kind: Config
+minimumRequiredVersion: 0.8.0
+directories:
+  - path: themes/ananke
+    contents:
+      - path: .
+        git:
+          url: https://github.com/theNewDynamic/gohugo-theme-ananke
+          ref: 5e250268bd1bf333672bd111c070cef88f963247
+        excludePaths:
+          - LICENSE.md
